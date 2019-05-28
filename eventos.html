@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Eventos</title>
+    <link href="./estilos.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <header>
+        <h1 style="font-size: 52px" class='cabec'>Eventos Desafio 3</h1>
+    </header>
+
+    <ol style="font-size: 22px" class="event" id="listaEventos">
+       
+        <li>Evento 02 27/05/2019</li>
+        <li>Evento 03 06/06/2019</li>
+        <li>Evento 04 08/06/2019</li>
+        <li>Evento 05 18/06/2019</li>
+        <li>Evento 01 17/05/2019</li>
+    </ol>
+
+    <div align='center'>
+        </br>
+        <label for="nome" style="font-size: 25px">Insira a Data para Filtrar</label>
+        </br>
+        <input type="date" name="data" id="data" placeholder="Data">
+        </br>
+        <button id="filtrar" type="button" class="filtrar" onclick="filtrar()">Filtrar</button>
+        </br>
+
+    </div>
+
+
+    <ol style="font-size: 22px" class="event" id="listaEventosFiltrada">
+    </ol>
+
+    <script type="text/javascript" language="javascript" src="funcoes.js"></script>
+</body>
+
+</html>
